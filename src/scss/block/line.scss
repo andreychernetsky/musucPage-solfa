@@ -1,0 +1,9 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.line {
+    width: 70%;
+    background-color: #ddd;
+    height: 1px;
+    margin: 10px auto;
+}
