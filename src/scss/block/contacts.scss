@@ -1,0 +1,11 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.contacts {
+    background: green;
+    @include outline;
+    width: 97%;
+    margin: 5px;
+    height: 700px;
+
+}

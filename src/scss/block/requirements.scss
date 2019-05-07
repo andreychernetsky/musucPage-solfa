@@ -1,0 +1,17 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.requirements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 50%;
+    height: 200px;
+    &__desk {
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
+
+}

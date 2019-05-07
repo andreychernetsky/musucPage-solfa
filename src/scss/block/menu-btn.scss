@@ -1,0 +1,28 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.menu-btn {
+    display: none;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    color: #ccc;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 500;
+    font-size: 1.9rem;
+    @include transition(all, 0.35s, ease, 0s);
+    &:hover {
+        color: #2A4C3B;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-btn {
+        display: block;
+    }
+}

@@ -1,0 +1,43 @@
+@import "../partials/params";
+@import "../partials/mixins";
+
+.grid-left {
+    //@include outline;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+    &__article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        //@include outline;
+
+    }
+    &__title {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+    &__num {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 1.3rem;
+        text-transform: lowercase;
+        vertical-align: super;
+
+    }
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .grid-left {
+        width: 100%;
+    }
+}
