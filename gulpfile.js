@@ -1,4 +1,4 @@
-var gulp = require('gulp');
+ gulp = require('gulp');
 var sourcemaps = require('gulp-sourcemaps');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
@@ -16,7 +16,7 @@ var config = {
         cssName: 'bundle.min.css',
         path: './public'
     },
-    isDevelop: true
+    isDevelop: false
 };
 
 gulp.task('scss', function () {

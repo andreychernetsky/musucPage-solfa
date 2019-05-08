@@ -2,11 +2,15 @@
 @import "../partials/mixins";
 
 .grid-right {
-    background: yellow;
+
     //@include outline;
     height:700px;
     width: 50%;
     margin:5px;
+    &__article{
+        margin-bottom: 9%;
+    }
+
 
 }
 @media only screen and (max-width: 992px) {
